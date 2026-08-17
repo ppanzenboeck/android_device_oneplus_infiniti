@@ -1,0 +1,3 @@
+ro.product.marketname=OnePlus 15
+
+media.settings.xml=/vendor/etc/media_profiles_vendor.xml
