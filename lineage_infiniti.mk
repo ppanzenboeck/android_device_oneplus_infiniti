@@ -12,11 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/infiniti/device.mk)
 
 # Inherit some common Lineage stuff.
-INFINITY_MAINTAINER := koaaN
 TARGET_HAS_UDFPS := true
 BYPASS_CHARGE_SUPPORTED := true
 
-$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Keep fixed-source video below 60 fps from selecting high refresh-rate modes.
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
