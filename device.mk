@@ -64,8 +64,7 @@ PRODUCT_PACKAGES += \
     OPlusSettingsProviderResTarget \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
-    OPlusWifiResTarget \
-    PlusKey
+    OPlusWifiResTarget
 
 # PowerShare
 PRODUCT_PACKAGES += \
